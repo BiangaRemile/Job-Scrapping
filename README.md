@@ -4,16 +4,6 @@
 
 <table>
   <tr>
-    <td><strong>👥 Équipe</strong></td>
-    <td>
-      • Remile Bianga<br>
-      • Marie-joyeuse Ampire<br>
-      • Orcin Kitwa<br>
-      • Simon Wando<br>
-      • Miradi Malolo
-    </td>
-  </tr>
-  <tr>
     <td><strong>🎓 Contexte</strong></td>
     <td>Projet étudiant – MIA PBL 6B</td>
   </tr>
