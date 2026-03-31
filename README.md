@@ -134,6 +134,8 @@ ALIBABA_CLOUD_SECRET=votre_access_key_secret
 |BD_URI |URI de connexion MongoDB (avec authentification)|MongoDB Atlas / local|
 |BOT_LINK |Lien public du bot (optionnel, pour documentation)|@BotFather|
 
+---
+
 ## ▶️ Utilisation
 ### Lancer l'application
 ```bash
@@ -154,6 +156,7 @@ python main.py
 Ctrl+C  # Le bot gère la fermeture des threads et connexions
 ```
 ---
+
 ## 📁 Structure du projet
 ```bash
 MIA_PBL_6B/
@@ -171,6 +174,7 @@ MIA_PBL_6B/
     └── bot.py              # Gestionnaire du bot Telegram (handlers, envoi)
 ```
 ---
+
 ## 🔐 Bonnes pratiques & Sécurité
 ### ✅ À faire
 - Utiliser un .env local et l'ajouter à .gitignore
@@ -183,6 +187,7 @@ MIA_PBL_6B/
 - Scraper sans respecter les robots.txt et CGU du site cible
 
 ---
+
 ## 🛠️ Dépannage
 |Problème|Solution possible|
 |--------|----------------|
@@ -191,6 +196,8 @@ MIA_PBL_6B/
 |Telegram Bot not responding|Confirmer que le bot a été démarré via /start et que le token est correct|
 |ModuleNotFoundError|Réinstaller les dépendances : pip install -r requirements.txt|
 |Rate limit API IA|Ajouter un délai entre les appels ou vérifier votre quota|
+
+---
 
 ## 🤝 Contribuer
 - Forker le dépôt
