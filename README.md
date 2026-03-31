@@ -32,5 +32,15 @@ Ajouter des utilisateurs : Les utilisateurs doivent démarrer une conversation a
 
 Vérifier les logs : Le script affiche des messages de statut dans la console pour indiquer le progrès du scrapping et des insertions dans la base de données.
 
-Structure du Projet /projet-bot-telegram │ ├─- /classes │ ├── scraper.py # Classe pour effectuer le web scraping │ ├── job.py # Classe pour représenter une offre d'emploi │ ├── database.py # Classe pour interagir avec MongoDB │ └── bot.py # Classe pour gérer le bot Telegram │ ├── main.py # Fichier principal pour exécuter le bot et le scrapping ├── .env # Fichier contenant les variables d'environnement ├── requirements.txt # Liste des dépendances Python └── README.md # Documentation du projet
+Structure du Projet /projet-bot-telegram 
+
+├─- /classes 
+│ ├── scraper.py # Classe pour effectuer le web scraping 
+│ ├── job.py # Classe pour représenter une offre d'emploi 
+│ ├── database.py # Classe pour interagir avec MongoDB 
+│ └── bot.py # Classe pour gérer le bot Telegram 
+├── main.py # Fichier principal pour exécuter le bot et le scrapping 
+├── .env # Fichier contenant les variables d'environnement 
+├── requirements.txt # Liste des dépendances Python 
+└── README.md # Documentation du projet
 
